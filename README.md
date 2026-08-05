@@ -2,6 +2,19 @@
 
 Onboard representative AWS and GCP compute into Azure Arc and Defender through auditable automation.
 
+## Project metadata
+
+The metadata below is derived from tracked source, manifests, and infrastructure
+files. It describes what this repository includes; live-service integration remains
+bounded by the documented deployment and validation limitations.
+
+| Category | Included |
+| --- | --- |
+| Platforms | Microsoft Azure; GitHub Actions; Amazon Web Services (AWS); Google Cloud |
+| Services and stack | Defender for Cloud; Azure Arc; AWS; GCP; Bicep |
+| Languages and formats | Python; Bicep; Bicep parameters; Bash; JSON; YAML |
+| Delivery and IaC | Bicep + `.bicepparam`; GitHub Actions CI; YAML configuration; Python validation/tests |
+
 ## Problem statement
 
 An onboarding plan for an AWS or GCP workload is checked for tenant scope, private management paths, federated identity, approval, and evidence freshness before Arc and Defender adapters execute.
