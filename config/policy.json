@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "1.0",
+  "project": "Defender-Multicloud-Arc-Provisioner",
+  "rank": 14,
+  "action": "plan_defender_multicloud_arc_provisioner",
+  "allowedCredentialModes": [
+    "managed_identity",
+    "workload_identity"
+  ],
+  "protectedTargets": [
+    "production",
+    "break-glass"
+  ],
+  "allowedTenantIds": [
+    "tenant-a"
+  ]
+}
